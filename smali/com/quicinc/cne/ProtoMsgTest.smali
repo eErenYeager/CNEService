@@ -260,7 +260,7 @@
     .local v0, "pto":[B
     const/4 v1, 0x0
 
-    invoke-static {p0, v1, v0, v1, p1}, Ljava/lang/System;->arraycopy([BI[BII)V
+    invoke-static {p0, v1, v0, v1, p1}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     .line 133
     :try_start_0

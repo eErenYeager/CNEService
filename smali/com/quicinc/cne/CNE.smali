@@ -6015,7 +6015,7 @@
     .local v0, "pto":[B
     const/4 v1, 0x0
 
-    invoke-static {p1, v1, v0, v1, p2}, Ljava/lang/System;->arraycopy([BI[BII)V
+    invoke-static {p1, v1, v0, v1, p2}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     .line 1871
     invoke-static {v0}, Lcom/quicinc/cne/Native$CneMessage;->parseFrom([B)Lcom/quicinc/cne/Native$CneMessage;
