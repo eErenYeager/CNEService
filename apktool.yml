@@ -1,0 +1,21 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: CNEService.apk
+compressionType: false
+doNotCompress:
+- classes.dex
+isFrameworkApk: false
+packageInfo: null
+sdkInfo:
+  minSdkVersion: '25'
+  targetSdkVersion: '25'
+sharedLibrary: false
+sparseResources: false
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.4.1
+versionInfo:
+  versionCode: '1'
+  versionName: '1.0'
